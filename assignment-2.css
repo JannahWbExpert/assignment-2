@@ -1,0 +1,433 @@
+/* shared styles */
+*{
+    font-family: 'Mulish', sans-serif;
+}
+section{
+    margin-top: 100px;
+}
+header, main{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #FFF;
+}
+h1{
+    color: #131318;
+    font-size: 2.5em;
+    font-weight: 800;
+    line-height: normal;
+}
+.sub-heading{
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.description{
+    color: rgba(19, 19, 24, 0.70);;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 26px;
+}
+.btn{
+    width: 10.875em;
+    height: 3.25em;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25em;
+    font-weight: 800;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+/* header styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 40px;
+}
+nav li a{
+    text-decoration: none;
+}
+.logo{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+/* banner styles */
+.banner{
+    margin-top: 1.25em;
+    height: 31em;
+    border-radius: 1em;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    text-align: center;
+    padding-top: 2.5em;
+}
+.banner h2{
+    color: #FFF;
+    font-size: 4em;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-box{
+    width: 768px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    justify-content: center;
+    margin: 80px auto;
+    position: relative;
+}
+.banner input{
+    width: 160px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    outline: 0;
+    padding-left: 15px;
+    margin: 5px;
+}
+.banner input[type="button"]{
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF5400;
+}
+.icon-when{
+    position: absolute;
+    right: 420px;
+    top: 40px;
+}
+.icon-down{
+    position: absolute;
+    right: 240px;
+    top: 40px;
+}
+.icon{
+    color: #FFF;
+    position: absolute;
+    right: 160px;
+    top: 40px;
+}
+/* tour styles */
+.tour{
+    display: flex;
+    gap: 60px;
+}
+/* destination styles */
+.destination{
+    display: none;
+}
+.destination-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+.destination-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+.destination-3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+/* why-choose styles */
+.why-choose img{
+    width: 15%;
+}
+.why-choose-description{
+    text-align: center;
+}
+.why-choose-card-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+.why-choose-1{
+    width: 480px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 50px 40px 0px 40px;
+}
+.why-choose-2{
+    width: 480px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 50px 40px 0px 40px;
+}
+.why-choose-card-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.why-choose-3{
+    width: 480px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 50px 40px 0px 40px;
+}
+/* Discounts styles */
+.discount-item{
+    text-align: center;
+}
+.card-item{
+    display: flex;
+    gap: 30px;
+}
+.card-icon{
+    color: #FF5400;
+}
+.discount-item-container{
+    width: 500px;
+    height: 330px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 30px 0px 30px 30px ;
+}
+.price{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.Discounts-1{
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    background: url(Group\ 39.png), lightgray 50%;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+.discount-position-1{
+    transform: translateX(98%) translateY(15%);
+}
+.discount-position-2{
+    transform: translateX(20%) translateY(15%);
+}
+.Discounts-2{
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    background: url(Group\ 40.png), lightgray 50%;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-top: 30px;
+}
+.Discounts-3{
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    background: url(Group\ 39.png), lightgray 50%;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-top: 30px;
+}
+#discount-btn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+/* bangladesh-mountain styles */
+.bangladesh-mountain{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.bangladesh-mountain li{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
+/* Newsletter styles */
+.Newsletter{
+    display: flex;
+    gap: 30px;
+}
+.Newsletter-1{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 30px;
+}
+.Newsletter input{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    outline: 0;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.Newsletter button{
+    width: 415px;
+    height: 52px;
+}
+.Newsletter-2{
+    position: relative;
+}
+.sticker{
+    width: 250px;
+    transform: rotate(-20deg) translateX(180%) translateY(-20%);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+    padding: 15px 0px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* right: 2%;
+    top: 10%; */
+}
+#sticker-special{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+/* footer styles */
+footer{
+    margin-top: 100px;
+    padding-top: 80px;
+    height: 502px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+footer .logo{
+    display: flex;
+    justify-content: center;
+}
+.social-link{
+    margin-top: 50px;
+}
+.social-link a{
+    margin: 20px;
+}
+.social-link img{
+    width: 2.5%;
+}
+hr{
+    margin: 50px;
+}
+/* Responsive */
+@media screen and (max-width: 600px){
+    nav, 
+    .banner, 
+    .banner-box, 
+    .tour, 
+    .why-choose-card-1, 
+    .why-choose-card-2,
+    .bangladesh-mountain,
+    .Newsletter
+    {
+        flex-direction: column
+    }
+    .banner{
+        height: 800px;
+    }
+    .banner-box{
+        width: 400px;
+    }
+    .banner input{
+        width: 255px;
+        height: 52px;
+        margin: 15px auto;
+        /* display: block; */
+        justify-content: center;
+    }
+    .icon-when{
+        position: absolute;
+        right: 100px;
+        top: 135px;
+    }
+    .icon-down{
+        position: absolute;
+        right: 100px;
+        bottom: 130px;
+    }
+    .icon{
+        color: #FFF;
+        position: absolute;
+        left: 160px;
+        bottom: 48px;
+    }
+    .Discounts-1{
+        height: 500px;
+    }
+    .discount-item-container{
+        width: 500px;
+        padding: 5px 0px 10px 20px;
+        align-items: center;
+        transform: translateX(4%) translateY(35%); 
+    }
+    .Newsletter-1{
+        padding: 50px;
+    }
+    .Newsletter img{
+        width: 100%;
+    }
+    .social-link img{
+        width: 7%;
+    }
+    header, main{
+        margin-left: 10px;
+        margin-right: 10px;
+        
+} 
+}
