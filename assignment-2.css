@@ -478,23 +478,31 @@ hr{
     /* why choose us */
     .why-choose-1{
         width: 88%;
-        height: 284px;
-        flex-shrink: 0;
-        border-radius: 16px;
-        border: 1px solid rgba(251, 181, 99, 0.20);
-        background: rgba(251, 181, 99, 0.05);
+        padding: 50px 5% 0px ;
+    }
+    .why-choose-2{
+        width: 88%;
+        padding: 50px 5% 0px ;
+    }
+    .why-choose-3{
+        width: 88%;
         padding: 50px 5% 0px ;
     }
     /* discount styles */
     .Discounts-1{
         height: 500px;
     }
+    .discount-card{
+        display: flex;
+        justify-content: center;
+        padding-top: 120px;
+    }
     .discount-item-container{
         width: 500px;
-        padding: 5px 0px 20px 20px;
-        align-items: center;
-        transform: translateX(4%) translateY(35%); 
+        padding: 5px 0px 4% 2%;
+        transform: translateX(0%) translateY(0%); 
     }
+    /* Newsletter styles */
     .Newsletter-1{
         padding: 50px;
     }
