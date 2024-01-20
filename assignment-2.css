@@ -503,6 +503,10 @@ hr{
         padding: 5px 0px 4% 2%;
         transform: translateX(0%) translateY(0%); 
     }
+    /* bangladesh mountain styles */
+    .video{
+        width: 98%;
+    }
     /* Newsletter styles */
     .Newsletter-1{
         padding: 20px;
@@ -521,7 +525,7 @@ hr{
         font-size: 20px;
         font-weight: 400;
         padding: 15px 0px;
-        transform: rotate(-20deg) translateX(40%) translateY(-80%);
+        transform: rotate(-20deg) translateX(70%) translateY(-80%);
     }
     #sticker-special{
         color: #FFF;
