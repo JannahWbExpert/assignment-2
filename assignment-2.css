@@ -549,7 +549,7 @@ hr{
         font-size: 20px;
         font-weight: 400;
         padding: 15px 10px;
-        transform: rotate(-20deg) translateX(110%) translateY(-95%);
+        transform: rotate(-20deg) translateX(100%) translateY(-95%);
     }
     #sticker-special{
         color: #FFF;
