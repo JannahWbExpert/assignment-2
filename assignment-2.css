@@ -128,6 +128,7 @@ nav li a{
     line-height: normal;
     border-radius: 8px;
     background: #FF5400;
+    cursor: pointer;
 }
 .icon-when{
     position: absolute;
@@ -136,7 +137,7 @@ nav li a{
 }
 .icon-select-type{
     position: absolute;
-    right: 240px;
+    right: 230px;
     top: 40px;
 }
 .icon-search{
@@ -556,7 +557,7 @@ hr{
         font-size: 20px;
         font-weight: 400;
         padding: 15px 10px;
-        transform: rotate(-20deg) translateX(100%) translateY(-95%);
+        transform: rotate(-20deg) translateX(99%) translateY(-95%);
     }
     #sticker-special{
         color: #FFF;
