@@ -495,11 +495,11 @@ hr{
     .discount-card{
         display: flex;
         justify-content: center;
-        padding-top: 120px;
+        padding-top: 110px;
     }
     .discount-item-container{
         width: 92%;
-        height: 370px;
+        height: 345px;
         padding: 5px 0px 4% 2%;
         transform: translateX(0%) translateY(0%); 
     }
@@ -508,16 +508,16 @@ hr{
         padding: 20px;
     }
     .Newsletter input{
-        width:85%;
+        width:90%;
     }
     .Newsletter button{
-        width:85%;
+        width:95%;
     }
     .Newsletter img{
         width: 100%;
     }
     .sticker{
-        width: 200px;
+        width: auto;
         transform: rotate(-20deg) translateX(140%) translateY(-60%);
     }
     .social-link img{
