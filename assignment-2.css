@@ -76,7 +76,7 @@ nav li a{
 .check-btn{
     font-size: 30px;
     color: #FF5400;
-    margin-right: 40px;
+    margin-right: 1%;
     cursor: pointer;
     display: none;
 }
@@ -441,7 +441,12 @@ hr{
     }
     /* banner styles */
     .banner{
-        height: 800px;
+        height: 650px;
+        padding: 20px;
+    }
+    .banner h2{
+        font-size: 3em;
+        font-weight: 800;
     }
     .banner-box{
         width: 85%;
@@ -469,6 +474,10 @@ hr{
     .destination{
         display: flex;
         flex-direction: column;
+    }
+    /* why choose us */
+    .why-choose-card-1{
+        width: 100%;
     }
     /* discount styles */
     .Discounts-1{
