@@ -495,11 +495,11 @@ hr{
     .discount-card{
         display: flex;
         justify-content: center;
-        padding-top: 20%;
+        padding-top: 15%;
     }
     .discount-item-container{
         width: 92%;
-        height: auto;
+        height: 85%;
         padding: 5px 0px 4% 2%;
         transform: translateX(0%) translateY(0%); 
     }
