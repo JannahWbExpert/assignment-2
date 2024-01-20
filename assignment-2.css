@@ -445,7 +445,7 @@ hr{
         padding: 20px;
     }
     .banner h2{
-        font-size: 2.5em;
+        font-size: 2.3em;
         font-weight: 800;
     }
     .banner-box{
@@ -505,6 +505,12 @@ hr{
     /* Newsletter styles */
     .Newsletter-1{
         padding: 50px;
+    }
+    .Newsletter input{
+        width:90%;
+    }
+    .Newsletter button{
+        width:95%;
     }
     .Newsletter img{
         width: 100%;
