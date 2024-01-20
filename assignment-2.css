@@ -357,7 +357,7 @@ nav li a{
 }
 .sticker{
     width: 250px;
-    transform: rotate(-20deg) translateX(180%) translateY(-20%);
+    /* transform: rotate(-20deg) translateX(180%) translateY(-20%); */
     flex-shrink: 0;
     border-radius: 16px;
     background: #FF5400;
@@ -505,7 +505,7 @@ hr{
     }
     /* bangladesh mountain styles */
     .video{
-        width: 85%;
+        width: 100%;
     }
     /* Newsletter styles */
     .Newsletter-1{
@@ -525,7 +525,7 @@ hr{
         font-size: 20px;
         font-weight: 400;
         padding: 15px 0px;
-        transform: rotate(-20deg) translateX(100%) translateY(-80%);
+        transform: rotate(-20deg) translateX(95%) translateY(-95%);
     }
     #sticker-special{
         color: #FFF;
