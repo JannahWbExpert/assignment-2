@@ -521,7 +521,7 @@ hr{
         font-size: 24px;
         font-weight: 400;
         padding: 15px 0px;
-        transform: rotate(-20deg) translateX(80%) translateY(-70%);
+        transform: rotate(-20deg) translateX(50%) translateY(-70%);
     }
     .social-link img{
         width: 7%;
