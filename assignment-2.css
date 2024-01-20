@@ -538,7 +538,7 @@ hr{
     .Newsletter-1{
         padding: 20px;
     }
-    .Newsletter input{
+    .get-in-touch input, textarea, .Newsletter input{
         width:90%;
     }
     .Newsletter button{
