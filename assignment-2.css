@@ -499,23 +499,25 @@ hr{
     }
     .discount-item-container{
         width: 92%;
+        height: 370px;
         padding: 5px 0px 4% 2%;
         transform: translateX(0%) translateY(0%); 
     }
     /* Newsletter styles */
     .Newsletter-1{
-        padding: 50px;
+        padding: 20px;
     }
     .Newsletter input{
-        width:90%;
+        width:85%;
     }
     .Newsletter button{
-        width:95%;
+        width:85%;
     }
     .Newsletter img{
         width: 100%;
     }
     .sticker{
+        width: 200px;
         transform: rotate(-20deg) translateX(140%) translateY(-60%);
     }
     .social-link img{
