@@ -445,7 +445,7 @@ hr{
         padding: 20px;
     }
     .banner h2{
-        font-size: 3em;
+        font-size: 2.5em;
         font-weight: 800;
     }
     .banner-box{
@@ -498,7 +498,7 @@ hr{
         padding-top: 120px;
     }
     .discount-item-container{
-        width: 500px;
+        width: 92%;
         padding: 5px 0px 4% 2%;
         transform: translateX(0%) translateY(0%); 
     }
