@@ -495,7 +495,7 @@ hr{
     .discount-card{
         display: flex;
         justify-content: center;
-        padding-top: 15%;
+        padding-top: 19%;
     }
     .discount-item-container{
         width: 92%;
@@ -518,10 +518,10 @@ hr{
     }
     .sticker{
         width: auto;
-        font-size: 17px;
+        font-size: 24px;
         font-weight: 400;
         padding: 15px 0px;
-        transform: rotate(-20deg) translateX(120%) translateY(-70%);
+        transform: rotate(-20deg) translateX(99%) translateY(-70%);
     }
     .social-link img{
         width: 7%;
