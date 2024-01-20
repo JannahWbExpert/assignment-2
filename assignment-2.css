@@ -518,7 +518,10 @@ hr{
     }
     .sticker{
         width: auto;
-        transform: rotate(-20deg) translateX(140%) translateY(-60%);
+        font-size: 17px;
+        font-weight: 400;
+        padding: 15px 0px;
+        transform: rotate(-20deg) translateX(120%) translateY(-70%);
     }
     .social-link img{
         width: 7%;
