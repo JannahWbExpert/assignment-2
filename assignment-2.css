@@ -380,7 +380,7 @@ nav li a{
 }
 .sticker{
     width: 250px;
-    /* transform: rotate(-20deg) translateX(180%) translateY(-20%); */
+    transform: rotate(-20deg) translateX(180%) translateY(-20%);
     flex-shrink: 0;
     border-radius: 16px;
     background: #FF5400;
@@ -534,6 +534,10 @@ hr{
         padding: 5px 0px 4% 2%;
         transform: translateX(0%) translateY(0%); 
     }
+    /* .get-in-touch styles */
+    .get-in-touch-form{
+        width: 85%;
+    }
     /* Newsletter styles */
     .Newsletter-1{
         padding: 20px;
@@ -563,6 +567,9 @@ hr{
         line-height: normal;
     }
     /* footer styles */
+    footer{
+        margin-top: 50px;
+    }
     .social-link img{
         width: 7%;
     }
