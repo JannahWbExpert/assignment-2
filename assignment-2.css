@@ -52,10 +52,8 @@ nav{
     display: flex;
     align-items: center;
 }
-nav > ul{
-    display: flex;
-}
 nav li{
+    display: inline-block;
     list-style: none;
     color: #424247;
     text-align: center;
@@ -74,6 +72,16 @@ nav li a{
     gap: 20px;
     display: flex;
     align-items: center;
+}
+.check-btn{
+    font-size: 30px;
+    color: #FF5400;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
 }
 /* banner styles */
 .banner{
@@ -113,7 +121,6 @@ nav li a{
 }
 .banner input[type="button"]{
     color: #FFF;
-    /* text-align: center; */
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
@@ -127,12 +134,12 @@ nav li a{
     right: 420px;
     top: 40px;
 }
-.icon-down{
+.icon-select-type{
     position: absolute;
     right: 240px;
     top: 40px;
 }
-.icon{
+.icon-search{
     color: #FFF;
     position: absolute;
     right: 160px;
@@ -144,17 +151,49 @@ nav li a{
     gap: 60px;
 }
 /* destination styles */
+.Choose-Your-Destination{
+    text-align: center;
+}
 .destination{
-    display: none;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.destination img{
+    width: 100%;
+    height: 300px;
+}
+.Maldives,
+.Indonesia,
+.Srilanka,
+.North-America,
+.Kashmir,
+.Bangladesh,
+.Bandarban
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.destination-img-name{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 .destination-1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
+    margin-top: 50px;
 }
 .destination-2{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns:  repeat(1, 1.2fr) repeat(1,1.5fr ) repeat(1, 0.9fr);
     gap: 1em;
 }
 .destination-3{
@@ -365,7 +404,6 @@ hr{
 }
 /* Responsive */
 @media screen and (max-width: 600px){
-    
     .banner, 
     .banner-box, 
     .tour, 
@@ -376,6 +414,32 @@ hr{
     {
         flex-direction: column
     }
+    section{
+        margin-top: 50px;
+    }
+    /* menu bar styles */
+    .check-btn{
+        display: block;
+    }
+    nav ul{
+        position: absolute;
+        width: 100%;
+        height: 280px;
+        background: #FFF;
+        top: 120px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        padding: 0px;
+    }
+    nav ul li{
+        display: block;
+        margin: 30px 0;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    /* banner styles */
     .banner{
         height: 800px;
     }
@@ -386,25 +450,26 @@ hr{
         width: 255px;
         height: 52px;
         margin: 15px auto;
-        /* display: block; */
         justify-content: center;
     }
     .icon-when{
-        position: absolute;
         right: 100px;
         top: 135px;
     }
-    .icon-Select-Type{
-        position: absolute;
+    .icon-select-type{
         right: 100px;
-        bottom: 130px;
+        top: 220px;
     }
     .icon-search{
-        color: #FFF;
-        position: absolute;
-        left: 160px;
-        bottom: 48px;
+        left: 50px;
+        top: 300px;
     }
+    /* destination styles */
+    .destination{
+        display: flex;
+        flex-direction: column;
+    }
+    /* discount styles */
     .Discounts-1{
         height: 500px;
     }
