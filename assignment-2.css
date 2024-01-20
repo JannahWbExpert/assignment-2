@@ -476,8 +476,14 @@ hr{
         flex-direction: column;
     }
     /* why choose us */
-    .why-choose-card-1{
-        width: 100%;
+    .why-choose-1{
+        width: 88%;
+        height: 284px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+        padding: 50px 5% 0px ;
     }
     /* discount styles */
     .Discounts-1{
@@ -502,8 +508,8 @@ hr{
         width: 7%;
     }
     header, main{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 1%;
+        margin-right: 1%;
         
 } 
 }
