@@ -48,15 +48,10 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.navigation{
-    display: flex;
-    align-items: center;
-}
 nav li{
     display: inline-block;
     list-style: none;
     color: #424247;
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
@@ -155,7 +150,6 @@ nav li a{
     text-align: center;
 }
 .destination{
-    text-align: center;
     margin-bottom: 15px;
 }
 .destination img{
@@ -247,10 +241,6 @@ nav li a{
     padding: 50px 40px 0px 40px;
 }
 /* Discounts styles */
-.discount{
-    margin-left: 80px;
-    margin-right: 80px;
-}
 .discount-item{
     text-align: center;
 }
@@ -280,7 +270,7 @@ nav li a{
     line-height: normal;
 }
 .discount-position-1{
-    transform: translateX(98%) translateY(15%);
+    transform: translateX(99.5%) translateY(15%);
 }
 .Discounts-1{
     width: 100%;
@@ -288,12 +278,11 @@ nav li a{
     flex-shrink: 0;
     background: url(Group\ 39.png), lightgray 50%;
     background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 16px;
     margin-top: 50px;
 }
 .discount-position-2{
-    transform: translateX(20%) translateY(15%);
+    transform: translateX(14%) translateY(15%);
 }
 .Discounts-2{
     width: 100%;
@@ -301,7 +290,6 @@ nav li a{
     flex-shrink: 0;
     background: url(Group\ 40.png), lightgray 50%;
     background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 16px;
     margin-top: 30px;
 }
@@ -311,7 +299,6 @@ nav li a{
     flex-shrink: 0;
     background: url(Group\ 39.png), lightgray 50%;
     background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 16px;
     margin-top: 30px;
 }
@@ -394,18 +381,15 @@ nav li a{
     flex-shrink: 0;
     border-radius: 16px;
     background: #FF5400;
+    font-family: Mulish;
     font-size: 24px;
     font-weight: 400;
     color: #FFF;
     text-align: center;
     padding: 15px 0px;
-    justify-content: center;
-    align-items: center;
     position: absolute;
 }
 #sticker-special{
-    color: #FFF;
-    font-family: Mulish;
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
@@ -415,7 +399,7 @@ nav li a{
 footer{
     margin-top: 100px;
     padding-top: 80px;
-    height: 502px;
+    height: 500px;
     text-align: center;
     background: rgba(19, 19, 24, 0.05);
 }
@@ -487,24 +471,22 @@ hr{
     }
     .banner h2{
         font-size: 2.3em;
-        font-weight: 800;
     }
     .banner-box{
         width: 85%;
     }
     .banner input{
         width: 255px;
-        height: 52px;
         margin: 15px auto;
         display: flex;
         justify-content: center;
     }
     .icon-when{
-        right: 22.5%;
+        right: 22%;
         top: 37%;
     }
     .icon-select-type{
-        right: 22.5%;
+        right: 22%;
         top: 59%;
     }
     .icon-search{
@@ -520,22 +502,14 @@ hr{
         height: 270px;
     }
     /* why choose us */
-    .why-choose-1{
-        width: 88%;
-        padding: 50px 5% 0px ;
-    }
-    .why-choose-2{
-        width: 88%;
-        padding: 50px 5% 0px ;
-    }
-    .why-choose-3{
+    .why-choose-1,
+    .why-choose-2,
+    .why-choose-3
+    {
         width: 88%;
         padding: 50px 5% 0px ;
     }
     /* discount styles */
-    .Discounts-1{
-        height: 500px;
-    }
     .discount-card{
         display: flex;
         justify-content: center;
@@ -567,17 +541,11 @@ hr{
     .sticker{
         width: auto;
         font-size: 20px;
-        font-weight: 400;
         padding: 15px 10px;
         transform: rotate(-20deg) translateX(99%) translateY(-95%);
     }
     #sticker-special{
-        color: #FFF;
-        font-family: Mulish;
         font-size: 25px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
     }
     /* footer styles */
     footer{
