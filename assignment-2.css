@@ -248,6 +248,10 @@ nav li a{
     padding: 50px 40px 0px 40px;
 }
 /* Discounts styles */
+.discount{
+    margin-left: 80px;
+    margin-right: 80px;
+}
 .discount-item{
     text-align: center;
 }
@@ -349,6 +353,9 @@ nav li a{
     outline: 0;
     padding-left: 20px;
     margin-bottom: 5px;
+}
+.get-in-touch-form button{
+    margin-top: 20px;
 }
 /* Newsletter styles */
 .Newsletter{
@@ -473,7 +480,7 @@ hr{
     }
     /* banner styles */
     .banner{
-        height: 650px;
+        height: 600px;
         padding: 20px;
     }
     .banner h2{
@@ -491,11 +498,11 @@ hr{
         justify-content: center;
     }
     .icon-when{
-        right: 25%;
+        right: 22.5%;
         top: 37%;
     }
     .icon-select-type{
-        right: 25%;
+        right: 22.5%;
         top: 59%;
     }
     .icon-search{
@@ -506,6 +513,9 @@ hr{
     .destination{
         display: flex;
         flex-direction: column;
+    }
+    .destination img{
+        height: 270px;
     }
     /* why choose us */
     .why-choose-1{
