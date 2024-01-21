@@ -104,7 +104,7 @@ nav li a{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 16px;
-    justify-content: center;
+    /* justify-content: center; */
     margin: 80px auto;
     position: relative;
 }
@@ -281,7 +281,7 @@ nav li a{
     line-height: normal;
 }
 .Discounts-1{
-    width: 100%;
+    width: auto;
     height: 500px;
     flex-shrink: 0;
     background: url(Group\ 39.png), lightgray 50%;
